@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = felix.foiret@outlook.com
+	name = Felix Foiret
