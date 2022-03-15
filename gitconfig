@@ -52,3 +52,8 @@
 [user]
 	email = felix.foiret@outlook.com
 	name = Felix Foiret
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
